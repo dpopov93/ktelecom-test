@@ -1,0 +1,6 @@
+1. Файл Контрагенты.xlsx конвертировать в partners.csv с помощью xlstocsv.py
+2. Создаю пользователя базы create_db_user.sql
+3. Создание базы db_partners скриптом create_db.sh
+4. Формируем структуру таблицы create_db_struct.sql
+5. Заполняем таблицу fill_table.sql
+6. Подцепляю страницей из папки Page

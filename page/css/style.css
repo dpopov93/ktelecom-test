@@ -1,0 +1,55 @@
+body {
+    background: #dddddd;
+}
+
+label,  input { display:block; }
+input.text { margin-bottom:12px; width:95%; padding: .4em; }
+fieldset { padding:0; border:0; margin-top:25px; }
+div#users-contain { width: 350px; margin: 20px 0; }
+div#users-contain table { margin: 1em 0; border-collapse: collapse; width: 100%; }
+div#users-contain table td,  div#users-contain table th { border: 1px solid #eee; padding: .6em 10px; text-align: left; }
+.ui-dialog { padding: .3em; font-size: 12px;}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.test-caption {
+    font-size: 25px;
+    color: #111;
+    text-transform: uppercase;
+}
+.container {
+    width: 100%;
+    background-color: #ffffff;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 10px;
+    min-height: 800px;
+    box-shadow: 5px 5px 0px 5px rgba(0,0,0,.2);
+    border-top: 1px solid rgba(0,0,0,.2);
+    border-left: 1px solid rgba(0,0,0,.2);
+}
+
+.maximize {
+    max-width: unset;
+}
+
+.table-title {
+    font-size: 14px;
+}
+
+.table-row {
+    font-size: 14px;
+}
+
+.btn-action {
+    margin-right: 0 !important;
+}
+
+.table-db {
+    display: block;
+    overflow: scroll;
+    overflow: auto;
+}
